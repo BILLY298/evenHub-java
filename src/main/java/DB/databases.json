@@ -1,9 +1,13 @@
-"Databases":{
-  "mip":{
-      "host":"192.168.1.113",
-      "port": "5432",
-      "bd": "aggregate",
-      "user": "postgres",
-      "pass": "odk1234"
-  }
+{
+  "Databases":
+    {
+    "mip":
+      {
+        "host":"192.168.1.113",
+        "port": "5432",
+        "bd": "aggregate",
+        "user": "postgres",
+        "pass": "odk1234"
+      }
+    }
 }

@@ -9,7 +9,7 @@ public class conectionPostgres {
     public Connection getConectionPostgres(Coneccion data){
         Connection con = null;
         try{
-            con = DriverManager.getConnection(data.getUrl(),data.getUser(),data.getPassword());
+            con = DriverManager.getConnection(data.getHost(),data.getUser(),data.getPassword());
             return con;
         } catch (SQLException throwables) {
             throwables.printStackTrace();

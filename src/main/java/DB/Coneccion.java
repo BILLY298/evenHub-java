@@ -1,16 +1,27 @@
 package DB;
 
 public class Coneccion {
-    private String url="";
+    private String name="";
+    private String host="";
+    private String port="";
     private String user ="";
     private String password ="";
+    private String basedatos ="";
 
-    public String getPassword() {
-        return password;
+    public String getName() {
+        return name;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getHost() {
+        return host;
+    }
+
+    public void setHost(String host) {
+        this.host = host;
     }
 
     public String getUser() {
@@ -21,11 +32,28 @@ public class Coneccion {
         this.user = user;
     }
 
-    public String getUrl() {
-        return url;
+    public String getPassword() {
+        return password;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setPassword(String password) {
+        this.password = password;
     }
+
+    public String getBasedatos() {
+        return basedatos;
+    }
+
+    public void setBasedatos(String basedatos) {
+        this.basedatos = basedatos;
+    }
+
+    public String getPort() {
+        return port;
+    }
+
+    public void setPort(String port) {
+        this.port = port;
+    }
+    
 }
